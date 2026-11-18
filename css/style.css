@@ -1,0 +1,231 @@
+body {
+  font-family: "Chakra Petch", sans-serif;
+  background: linear-gradient(#0d1117, #1b2a40);
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.font-heading {
+  font-family: "Russo One", sans-serif;
+}
+
+
+.text-main {
+  color: #d4f00e;
+}
+
+.border-main {
+  border-color: #d4f00e !important;
+}
+
+.btn-main {
+  background-color: #d4f00e;
+  color: #111;
+  font-weight: 600;
+}
+
+.btn-main:hover {
+  background-color: #b8d10c;
+}
+
+.btn-outline-main {
+  border: 3px solid #d4f00e;
+  color: #d4f00e;
+}
+
+.btn-outline-main:hover {
+  background-color: #d4f00e;
+  color: #111;
+}
+
+.section-tag {
+  color: #d4f00e;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.hero-img {
+ 
+  height: 450px;
+object-fit: cover;
+box-shadow: 0 0 25px rgba(212,240,14,0.5);
+}
+.navbar {
+  background-color: rgba(13, 17, 23, 0.9);
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #d4f00e;
+}
+.hero {
+  min-height: 100vh;
+  padding-top: 100px;
+  background: linear-gradient(rgba(13, 17, 23, 0.85), rgba(13, 17, 23, 0.85)), url(./img/hero-bg.jpg) center / cover;
+}
+
+.section-tag::before,.section-tag::after {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 3px;
+  background-color: #d4f00e;
+ 
+  margin: 0 10px 3px;
+}
+
+.stat-box {
+  background-color:rgb(12, 14, 19);
+  transform: translate(-20px, 30%);
+}
+
+.what{
+    background-color:rgb(12, 14, 19)
+}
+.game-img {
+  height: 280px;
+  object-fit: cover;
+}
+
+.arrow-btn {
+  width: 55px;
+  height: 55px;
+}
+
+
+.service-card {
+  background-color: rgb(26, 26, 26);
+  min-height: 250px;
+}
+
+.service-img {
+  object-fit: cover;
+  min-height: 250px;
+}
+.logos{
+    background: radial-gradient(ellipse at center, rgba(212, 240, 14, 0.6) 0%, transparent 65%), rgb(12, 14, 19);
+   position: relative;
+}
+
+.glow-line {
+  width: 50%;
+  height: 3px;
+  background-color: #d4f00e;
+  box-shadow: 0 0 15px #d4f00e;
+}
+.logos::before,
+.logos::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 15%;
+  height: 100%;
+  z-index: 1;
+}
+
+.logos::before {
+  left: 0;
+  background: linear-gradient(to right, rgb(12, 14, 19), transparent);
+}
+
+.logos::after {
+  right: 0;
+  background: linear-gradient(to left, rgb(12, 14, 19), transparent);
+}
+
+.icon-box {
+  background-color: #2c3e5c;
+  color: #d4f00e;
+  font-size: 28px;
+  padding: 12px 18px;
+}
+
+
+.logo-img {
+  width: 120px;
+  height: 120px;
+}
+
+.team-card img {
+  height: 380px;
+  opacity: 0.5;
+  object-fit: cover;
+transition: 0.4s opacity;
+}
+.team-card:hover p,.team-tag:hover{
+    color: #d4f00e;
+}
+
+.team-card:hover img {
+  opacity: 1;
+}
+
+.team-info {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  width: 100%;
+}
+.team{
+    background-color:rgb(12, 14, 19)
+}
+h5{
+  color: rgb(229, 229, 229)
+}
+.team-tag{
+transform: rotate(-270deg);
+transition: color 0.3s;
+  padding: 15px 10px;
+}
+
+
+.info-card {
+  background-color:rgb(30, 41, 56);
+}
+
+.circle-icon {
+  min-width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #d4f00e;
+  color: #111;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.community-card {
+  background: linear-gradient(to right, #d4f00e, #7cf27c);
+}
+
+.social-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color:rgb(12, 14, 19);
+  color: #d4f00e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+     background-color:rgb(14, 19, 30);
+}
+
+.contact .form-control,
+.contact .form-select {
+  background-color:rgb(54, 65, 83);
+  border: none;
+  color: white;
+  padding: 12px;
+}
+
+.contact .form-control::placeholder {
+  color: #e0e6ef;
+}
+footer {
+  background-color:rgb(0, 0, 0);
+}
