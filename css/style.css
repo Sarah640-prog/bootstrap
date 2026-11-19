@@ -19,18 +19,18 @@ a {
 }
 
 .border-main {
-  border-color: rgb(179, 248, 60) !important;
+  border-color:rgb(179, 248, 60) !important;
 }
 
 .btn-main1 {
-  background-color: rgb(203, 255, 28);
+  background-color:rgb(203, 255, 28);
   color: #111;
   font-weight: 600;
   font-size: 16px;
   padding-top: 12px;
 }
 .btn-main2 {
-  background-color: rgb(203, 255, 28);
+  background-color:rgb(203, 255, 28);
 
   font-weight: 600;
   font-size: 16px;
@@ -318,3 +318,5 @@ background-color:rgb(37, 60, 33);
 .size{
   font-size: 15px;
 }
+
+
