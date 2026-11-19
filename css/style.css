@@ -5,7 +5,7 @@ body {
 }
 
 a {
-  color: white;
+  
   text-decoration: none;
 }
 
@@ -19,31 +19,70 @@ a {
 }
 
 .border-main {
-  border-color: #d4f00e !important;
+  border-color: rgb(179, 248, 60) !important;
+}
+
+.btn-main1 {
+  background-color: rgb(203, 255, 28);
+  color: #111;
+  font-weight: 600;
+  font-size: 16px;
+  padding-top: 12px;
+}
+.btn-main2 {
+  background-color: rgb(203, 255, 28);
+
+  font-weight: 600;
+  font-size: 16px;
+
+}
+.btn-main4 {
+  background-color: rgb(203, 255, 28);
+
+  font-weight: 600;
+  font-size: 16px;
+  padding-top: 12px;
+}
+.btn-main4:hover {
+  background-color: rgb(168, 211, 47);
+  color:black;
+}
+.btn-main3 {
+  background-color: rgb(203, 255, 28);
+
+  font-weight: 600;
+  font-size: 16px;
+  
+
+}
+.btn-main3:hover {
+  background-color: rgb(168, 211, 47);
+  color:black;
 }
 
 .btn-main {
-  background-color: #d4f00e;
+
   color: #111;
   font-weight: 600;
+  font-size: 16px;
 }
 
 .btn-main:hover {
-  background-color: #b8d10c;
+  background-color: rgb(203, 255, 28);
 }
 
 .btn-outline-main {
-  border: 3px solid #d4f00e;
-  color: #d4f00e;
+  border: 3px solid rgb(203, 255, 28);
+  color: rgb(203, 255, 28);
 }
 
 .btn-outline-main:hover {
-  background-color: #d4f00e;
+  background-color: rgb(203, 255, 28);
   color: #111;
 }
 
 .section-tag {
-  color: #d4f00e;
+  color: rgb(179, 248, 60);
   font-weight: 700;
   letter-spacing: 3px;
 }
@@ -60,8 +99,15 @@ box-shadow: 0 0 25px rgba(212,240,14,0.5);
 
 .navbar .nav-link.active,
 .navbar .nav-link:hover {
-  color: #d4f00e;
+  color: rgb(179, 248, 60);
 }
+.hover:hover{
+  color: rgb(179, 248, 60);
+}
+.hover{
+  color: white;
+}
+
 .hero {
   min-height: 100vh;
   padding-top: 100px;
@@ -73,9 +119,12 @@ box-shadow: 0 0 25px rgba(212,240,14,0.5);
   display: inline-block;
   width: 60px;
   height: 3px;
-  background-color: #d4f00e;
+  background-color: rgb(179, 248, 60);
  
   margin: 0 10px 3px;
+}
+.section-tag{
+  font-family: "Chakra Petch", sans-serif;
 }
 
 .stat-box {
@@ -114,8 +163,8 @@ box-shadow: 0 0 25px rgba(212,240,14,0.5);
 .glow-line {
   width: 50%;
   height: 3px;
-  background-color: #d4f00e;
-  box-shadow: 0 0 15px #d4f00e;
+  background-color: rgb(179, 248, 60);
+  box-shadow: 0 0 15px rgb(179, 248, 60);
 }
 .logos::before,
 .logos::after {
@@ -125,6 +174,7 @@ box-shadow: 0 0 25px rgba(212,240,14,0.5);
   width: 15%;
   height: 100%;
   z-index: 1;
+  
 }
 
 .logos::before {
@@ -139,7 +189,7 @@ box-shadow: 0 0 25px rgba(212,240,14,0.5);
 
 .icon-box {
   background-color: #2c3e5c;
-  color: #d4f00e;
+  color: rgb(179, 248, 60);
   font-size: 28px;
   padding: 12px 18px;
 }
@@ -157,7 +207,7 @@ box-shadow: 0 0 25px rgba(212,240,14,0.5);
 transition: 0.4s opacity;
 }
 .team-card:hover p,.team-tag:hover{
-    color: #d4f00e;
+    color: rgb(179, 248, 60);
 }
 
 .team-card:hover img {
@@ -189,7 +239,7 @@ transition: color 0.3s;
   min-width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-color: #d4f00e;
+  background-color: rgb(179, 248, 60);
   color: #111;
   font-size: 24px;
   display: flex;
@@ -198,7 +248,7 @@ transition: color 0.3s;
 }
 
 .community-card {
-  background: linear-gradient(to right, #d4f00e, #7cf27c);
+  background: linear-gradient(to right, rgb(179, 248, 60), rgb(124, 242, 124));
 }
 
 .social-circle {
@@ -206,7 +256,7 @@ transition: color 0.3s;
   height: 50px;
   border-radius: 50%;
   background-color:rgb(12, 14, 19);
-  color: #d4f00e;
+  color: rgb(179, 248, 60);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -228,4 +278,43 @@ transition: color 0.3s;
 }
 footer {
   background-color:rgb(0, 0, 0);
+   color:rgb(152, 161, 174);
+}
+ 
+.btn-outline-light {
+  border: 3px solid rgb(54, 65, 83);
+  background-color: rgb(12, 14, 19);
+}
+.btn-outline-light:hover {
+  border: 3px solid rgb(179, 248, 60);
+  color: rgb(179, 248, 60);
+   background-color: rgb(12, 14, 19);
+}
+.font1{
+ font-family: "Chakra Petch", sans-serif;
+}
+.team-info p,.team-info small {
+  font-family: "Chakra Petch", sans-serif;
+}
+.color1{
+  color:rgb(152, 161, 174);
+}
+.colr:hover{
+color:rgb(179, 248, 60);
+}
+.color2{
+  color:rgb(152, 161, 174);
+}
+.list-unstyled li a,.list-unstyled a{
+  color:rgb(152, 161, 174);
+}
+.list-unstyled li a:hover,.list-unstyled a:hover{
+  color:rgb(179, 248, 60);
+}
+.social-circle:hover{
+background-color:rgb(37, 60, 33);
+
+}
+.size{
+  font-size: 15px;
 }
